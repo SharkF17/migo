@@ -42,7 +42,7 @@ nav a:hover {
 
 /* Estilos para el título principal */
 #hero {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('fondo.jpg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('favicon.png');
   background-position: center;
   background-size: cover;
   padding: 100px 0;
