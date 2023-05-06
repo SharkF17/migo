@@ -10,34 +10,57 @@ body {
 header {
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Estilos para el botón del menú */
+#toggle-menu {
+  display: flex;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para el menú */
+#menu {
+  display: none;
+  background-color: black;
 }
 
 /* Estilos para la navegación */
-nav ul {
+#menu ul {
+  display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: right;
 }
 
-nav li {
-  display: inline-block;
-  margin-left: 20px;
+#menu li {
+  margin: 0 10px;
 }
 
-nav a {
-  display: block;
-  padding: 10px 20px;
+#menu a {
   color: #333333;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   transition: all 0.3s ease;
+  font-size: 16px;
 }
 
-nav a:hover {
-  background-color: #333333;
-  color: #ffffff;
+/* Estilos para el carrusel */
+#menu.slide-out {
+  position: fixed;
+  right: -250px;
 }
 
 /* Estilos para el título principal */
