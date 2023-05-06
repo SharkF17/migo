@@ -30,7 +30,8 @@ header {
 
 /* Estilos para el menú */
 #menu {
-  display: none;
+  display: flex;
+  visibility: hidden;
   background-color: black;
 }
 
