@@ -8,7 +8,8 @@ body {
 
 /* Estilos para el encabezado */
 header {
-  background-color: #ffffff;
+  border-radius: 10px;
+  background-color: rgba(118, 34, 126, 1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: flex-end;
@@ -29,11 +30,29 @@ header {
   cursor: pointer;
 }
 
+#toggle-menu:hover {
+  #lineas {
+    fill: #33105D;
+    transition: all 1s ease;
+  }
+}
+
+
+#toggle {
+  width: 230px;
+}
+
+#lineas {
+  fill: #D00F55;
+}
+
 /* Estilos para el menú */
 #menu {
-  display: flex;
-  visibility: hidden;
-  background-color: black;
+  display: none;
+  background-color: #333333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 18px;
 }
 
 /* Estilos para la navegación */
@@ -44,14 +63,15 @@ header {
   padding: 0;
   list-style: none;
   text-align: right;
+  justify-content: space-between;
 }
 
 #menu li {
-  margin: 0 10px;
+  margin: 0 16px;
 }
 
 #menu a {
-  color: #333333;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -60,15 +80,17 @@ header {
 }
 
 /* Estilos para el carrusel */
-#menu.slide-out {
-  position: fixed;
-  right: -250px;
-  visibility: hidden;
+#menu.slide-menu {
+  display: flex;
+}
+
+#toggle-menu.slide-toggle {
+  left: -550px;
 }
 
 /* Estilos para el título principal */
 #hero {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('ojo.svg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('media/logo/ojo.svg');
   background-position: center;
   background-size: cover;
   padding: 100px 0;
@@ -138,6 +160,10 @@ header {
 #servicios li:hover {
   background-color: #ffffff;
   color: #ff6600;
+}
+
+#typewriter {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
 }
 
 /* Estilos para la sección de nosotros */

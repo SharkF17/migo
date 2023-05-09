@@ -13,9 +13,9 @@ function start() {
 // Toggle la clase "slide-out" en el menú
 function slideMenu() {
   menu = document.getElementById("menu");
-
-  alert("Hola Mundo!")
-  menu.classList.toggle("slide-out");
+  menu.classList.toggle("slide-menu");
+  botonMenu.classList.toggle("slide-toggle")
+  console.log("cambiando")
 }
 
 window.addEventListener("load", start)
