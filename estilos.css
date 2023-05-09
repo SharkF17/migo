@@ -19,6 +19,7 @@ header {
 /* Estilos para el botón del menú */
 #toggle-menu {
   display: flex;
+  visibility: visible;
   background-color: #333333;
   color: #ffffff;
   padding: 10px 20px;
@@ -62,11 +63,12 @@ header {
 #menu.slide-out {
   position: fixed;
   right: -250px;
+  visibility: hidden;
 }
 
 /* Estilos para el título principal */
 #hero {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('favicon.png');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('ojo.svg');
   background-position: center;
   background-size: cover;
   padding: 100px 0;

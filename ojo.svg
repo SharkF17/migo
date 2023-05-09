@@ -1,0 +1,13 @@
+<svg width="335" height="335" viewBox="0 0 335 335" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ojo">
+<circle id="interno negro" cx="167" cy="168" r="44" stroke="black" stroke-width="36"/>
+<path id="elipse color" d="M285 167.5C285 183.568 275.057 200.706 253.613 214.769C232.341 228.719 201.775 238 167 238C132.225 238 101.659 228.719 80.3871 214.769C58.9435 200.706 49 183.568 49 167.5C49 151.432 58.9435 134.294 80.3871 120.231C101.659 106.281 132.225 97 167 97C201.775 97 232.341 106.281 253.613 120.231C275.057 134.294 285 151.432 285 167.5Z" stroke="url(#paint0_linear_2_144)" stroke-width="40"/>
+<circle id="externo negro" cx="167.5" cy="167.5" r="151" stroke="black" stroke-width="33"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2_144" x1="29" y1="168" x2="305" y2="168" gradientUnits="userSpaceOnUse">
+<stop stop-color="#76227E"/>
+<stop offset="1" stop-color="#D00F55"/>
+</linearGradient>
+</defs>
+</svg>
